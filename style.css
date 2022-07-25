@@ -16,3 +16,17 @@ box-sizing: border-box;
 body{
     background-color: var(--bg);
 }
+#content{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.sectionContent{
+    margin:var(--se);
+    background-color: var(--sixty);
+    border-radius:20px;
+    height: 94%;
+    width: 98%;
+}
